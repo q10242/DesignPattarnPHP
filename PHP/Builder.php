@@ -96,9 +96,26 @@ class Director
 function clientCode(Director $director) 
 {
     $builder = new ConcreteBuilder1();
-    $director->setBuilder();
+    $director->setBuilder($builder);
+
+    
+    echo "Standard basic product:\n";
+    $director->buildMinimalViableProduct();
+    $builder->getProduct()->listParts();
+
+    echo "Standard full featured product:\n";
+    $director->buildFullFeaturedProduct();
+    $builder->getProduct()->listParts();
+
+    // Remember, the Builder pattern can be used without a Director class.
+    echo "Custom product:\n";
+    $builder->producePartA();
+    $builder->producePartC();
+    $builder->getProduct()->listParts();
 }
 
+$director = new Director();
+clientCode($director);
 /**
  * 簡單來說 要建立Product1 就可以用Builder 來設定各種不同部分的Function 再使用Director 來簡化它 
  * 根據你的Builder不同 建立出來的物件也不一樣 所以才會需要一個interface 來規定基本的methods
