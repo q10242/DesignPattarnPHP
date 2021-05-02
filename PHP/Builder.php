@@ -101,5 +101,5 @@ function clientCode(Director $director)
 
 /**
  * 簡單來說 要建立Product1 就可以用Builder 來設定各種不同部分的Function 再使用Director 來簡化它 
- * 根據你的Builder不同 建立出來的物件也不一樣 所以才會需要一個interface 來規定基本的method
+ * 根據你的Builder不同 建立出來的物件也不一樣 所以才會需要一個interface 來規定基本的methods
  */
