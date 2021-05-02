@@ -7,7 +7,7 @@
 2. [x] 工廠方法模式 (Factory Method Pattern)
 3. [x] 抽象工廠模式 (Abstract Factory Pattern)
 4. [x] 建立者模式 (Builder Pattern)
-5. [ ] 原型模式 (Prototype Pattern)
+5. [x] 原型模式 (Prototype Pattern)
 - 結構模式：讓你合成類別或物件到大型的結構。
 1. [ ] 裝飾者模式 (Decorator Pattern)
 2. [ ] 轉接器模式 (Adapter Pattern)
