@@ -5,8 +5,8 @@
 - 生成模式：牽涉到將物件實體化。這類模式都提供一個方法，將客戶從所需要實體化的物件中鬆綁出來。
 1. [x] 獨體模式 (Singleton Pattern)
 2. [x] 工廠方法模式 (Factory Method Pattern)
-3. [ ] 抽象工廠模式 (Abstract Factory Pattern)
-4. [ ] 建立者模式 (Builder Pattern)
+3. [x] 抽象工廠模式 (Abstract Factory Pattern)
+4. [x] 建立者模式 (Builder Pattern)
 5. [ ] 原型模式 (Prototype Pattern)
 - 結構模式：讓你合成類別或物件到大型的結構。
 1. [ ] 裝飾者模式 (Decorator Pattern)
