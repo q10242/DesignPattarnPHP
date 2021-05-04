@@ -28,11 +28,11 @@ class SamsBook extends AbstractPHPBook
 class OreillyBook extends AbstractPHPBook
 {   
 
-    private $author;
+    private $author;
     private $title;
 
 
-    private static $oddOrEven = 'Odd'
+    private static $oddOrEven = 'Odd';
     function __construct()
     {
         if ('odd' == self::$oddOrEven) {

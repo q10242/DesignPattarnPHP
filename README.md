@@ -11,8 +11,8 @@
 6. [x] Object Pool
 7. [x] Static Factory 
 - 結構模式：讓你合成類別或物件到大型的結構。
-1. [ ] 裝飾者模式 (Decorator Pattern)
-2. [ ] 轉接器模式 (Adapter Pattern)
+1. [x] 裝飾者模式 (Decorator Pattern)
+2. [x] 轉接器模式 (Adapter Pattern)
 3. [ ] 表象模式 (Facade Pattern)
 4. [ ] 合成模式 (Composite Pattern)
 5. [ ] 代理人模式 (Proxy Pattern)

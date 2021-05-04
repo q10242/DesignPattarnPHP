@@ -9,8 +9,6 @@ interface AbstractFactory
     public function createProductB(): AbstractProductB;
 
 }
-
-
 class ConcreateFactory1 implements AbstractFactory
 {
     public function createProductA(): AbstractProductA
