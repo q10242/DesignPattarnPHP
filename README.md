@@ -23,7 +23,7 @@
 2. [ ] 觀察者模式 (Observer Pattern)
 3. [ ] 命令模式 (Command Pattern)
 4. [ ] 樣板方法模式 (Template Method Pattern)
-5. [ ] 反覆器模式 (Iterator Pattern)
+5. [x] 反覆器模式 (Iterator Pattern)
 6. [ ] 狀態模式 (State Pattern)
 7. [ ] 責任鏈模式 (Chain of Responsibility Pattern)
 8. [ ] 解譯器模式 (Interpreter Pattern)
